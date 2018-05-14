@@ -1,17 +1,14 @@
 /**
- * <formatting-text-output>
+ * <sports league>
  * by <Fengyuan>
  * 
- * <Two sentence description of program>
+ * <create a table>
  * 
  */
  
 void setup() {
-   String team = "Team";
-   String win = "Wins";
-   String lose = "Losses";
-   String point = "points";
-   println (team + "\t" + win + "\t" + lose + "\t" + point);
+   size(500,500);
+  
    String team1name = "Cat";
    int team1 = 1;
    int losses = 2 ;
@@ -30,5 +27,14 @@ void setup() {
 }
 
 void draw() {
-
+    
+   String team = "Team";
+   String win = "Wins";
+   String lose = "Losses";
+   String point = "points";
+    
+    text(team,50,50);
+    text(win,170,50);
+    text(lose,290,50);
+    text(point,410,50);
 }
